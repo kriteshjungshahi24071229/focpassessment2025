@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-    <h2>Greet Page</h2>
-    <form method="post">
-        <input type="text" name="name" placeholder="Enter your name">
-        <button type="submit">Greet Me</button>
-    </form>
-    {% if message %}<p>{{ message }}</p>{% endif %}
-{% endblock %}
